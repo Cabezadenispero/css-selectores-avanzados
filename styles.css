@@ -1,1 +1,72 @@
 
+
+
+
+header nav ul li:nth-child(even) {
+    color: green;
+}
+
+header nav ul li:nth-child(3) {
+    background-color:blue;
+}
+
+header nav ul li:first-child {
+    border-top: 1px solid black;
+}
+
+header nav ul li:last-child {
+    border-bottom: 5px solid blue;
+}
+
+.month-list ul li:nth-child(3)>a {
+    color: red;
+    text-decoration: none;
+}
+
+.month-list ul li:nth-child(5)>a {
+    color: red;
+    text-decoration: none;
+}
+
+.month-list ul li:nth-child(5)>a:hover {
+    color: grey;
+}
+
+.disabled:not(a) {
+    color: gray;
+}
+a [class="disabled"] {
+    color: purple;
+    text-decoration: none;
+}
+
+.active {
+    color: gold;
+    text-decoration: none;
+}
+
+.padre > div > div:first-child {
+    color: red;
+}
+
+
+.padre > div > div:nth-of-type(2) {
+    color: blue;
+}
+
+.padre > div > div:first-child+h4 {
+    background-color: red;
+}
+
+.padre > div > div:nth-of-type(2)+h4 {
+    background-color: blue;
+}
+.abuelo>h4 {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
